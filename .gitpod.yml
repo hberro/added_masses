@@ -1,5 +1,6 @@
-image:
-    file: .gitpod.Dockerfile
+# Disable Dockerfile for now as it does not really work for Singularity
+# image:
+#     file: .gitpod.Dockerfile
 tasks:
   - name: VIKTOR
     init: |
